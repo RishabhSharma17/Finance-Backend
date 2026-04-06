@@ -1,0 +1,4 @@
+from app.repositories.financial_record_repository import financial_record_repository
+from app.repositories.user_repository import user_repository
+
+__all__ = ["user_repository", "financial_record_repository"]
