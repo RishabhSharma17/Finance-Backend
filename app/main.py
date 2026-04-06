@@ -39,7 +39,7 @@ app.add_middleware(LoggingMiddleware)
 
 register_exception_handlers(app)
 
-from app.api.v1.router import api_v1_router  # noqa: E402
+from app.api.v1.router import api_v1_router
 
 app.include_router(api_v1_router, prefix="/api/v1")
 
